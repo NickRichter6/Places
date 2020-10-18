@@ -34,7 +34,7 @@ class MainViewController: UIViewController,UITableViewDataSource ,UITableViewDel
         
         places = realm.objects(Place.self)
         
-    // MARK: - SetUpSearchController
+    // MARK: - Set Up SearchController
         
         searchController.searchResultsUpdater = self
         searchController.obscuresBackgroundDuringPresentation = false
